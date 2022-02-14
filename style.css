@@ -1,0 +1,60 @@
+/* My Resets */
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* Header Style*/
+
+h1 {
+    margin: 32px;
+}
+
+/* Box Styles */
+
+.box {
+    width: 180px;
+    height: 100px;
+    background-color: blueviolet;
+    border: 10px solid black;
+    display: inline-block;
+    margin: 40px;
+}
+.double {
+    border-style: double;
+}
+
+.dashed {
+    border-style: dashed;
+}
+
+.dotted {
+     border-style: dotted;
+}
+
+.no-border {
+    border: 0
+}
+
+.para {
+    width: 400px;
+    background-color:crimson;
+    font-size: 24px;
+    color: white;
+    padding: 24px;
+    border-top: 10px solid blue;
+    border-right: 10px solid grey;
+    border-bottom: 10px solid yellow;
+    border-left: 10px solid green;
+}
+
+.para-container {
+    background-color: darkmagenta;
+    padding: 45px 30px;
+    display: inline-block;
+    margin: 30px;
+}
+
